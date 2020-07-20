@@ -1,0 +1,10 @@
+<suite name="Demo API Automation">
+    <test name="employee data test cases">
+        <classes>
+            <class name="testCases.DemoTests"/>
+        </classes>
+        <listeners>
+            <listener class-name="Base.ExtentReporterNG"/>
+        </listeners>
+    </test>
+</suite>
